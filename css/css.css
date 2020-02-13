@@ -3,6 +3,11 @@
   width: 100%;
 }
 
+body {
+  margin: 0px;
+  background-color: black;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -11,6 +16,16 @@
     float: right;
     display: block;
   }
+}
+
+@media screen and (max-width: 290px) {
+  .a-match-logo-b img {
+    display: none;
+  }
+  .a-match-logo-a img {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -30,14 +45,14 @@
 }
 
 .topnav {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -57,3 +72,65 @@
 .topnav .icon {
   display: none;
 }
+
+article.a-match {
+  text-align: center;
+}
+
+.a-match-datum {
+  margin: 25px;
+
+}
+
+article h4 {
+  background: red;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 17px;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.wrapper {
+  margin: 15px;
+  background-color: white;
+  padding: 5px;
+}
+
+.a-match-datum {
+  font-size: 14px;
+  margin: 0px 0px;
+}
+
+.a-match-tid {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.a-match-lag {
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.main-wrapper {
+  margin: 10px;
+  background-color: white;
+}
+.a-match-logo-a img {
+  float: left;
+  margin: 0px;
+  height: 4em;
+  max-width: 6em;
+  text-align: center;
+}
+
+.a-match-logo-b img {  
+  float: right;
+  margin: 0px;  
+  max-width: 6em;
+  height: 4em;
+  text-align: center;
+}
+
