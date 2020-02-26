@@ -13,6 +13,17 @@ body {
 .topnav {
   background-color: black;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav .responsive {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .topnav a {
@@ -281,4 +292,59 @@ td.text-right {
     display: block;
     text-align: left;
   }
+}
+
+.media-object {
+  height: 100px;
+  overflow: hidden;
+  display: block;
+  padding: 10px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.media-object-section-main-section {
+  display: block;
+  justify-content: center;
+  margin: 0;
+  padding: 5px;
+  box-sizing: inherit;
+  text-align: center;
+  background-color: #eee;
+}
+
+.sub-title {
+  margin-bottom: 0.5rem;
+  font-size: 0.7em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #234b9a;
+}
+
+.media-object-section-main-section h5 {
+  position: relative;
+  height: 33px;
+  margin-bottom: 0;
+  overflow-y: hidden;
+  color: #1b1e24;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 0;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.read-more {
+  position: relative;
+  display: inline-flex;
+  max-height: 40px;
+  font-size: 0.9375rem;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-align: center;
 }
