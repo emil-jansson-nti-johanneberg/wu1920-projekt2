@@ -261,6 +261,9 @@ td.text-right {
   .match-logo-a {
     display: none;
   }
+  .property img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 260px) {
@@ -346,5 +349,94 @@ td.text-right {
   font-size: 0.9375rem;
   margin-bottom: 5px;
   overflow: hidden;
+  text-align: center;
+}
+
+#more {
+  display: none;
+}
+
+.om-media-object {
+  overflow: hidden;
+  display: block;
+  padding: 10px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.om-media-object-section-main-section {
+  display: block;
+  justify-content: center;
+  margin: 0;
+  padding: 5px;
+  box-sizing: inherit;
+  text-align: center;
+  background-color: #eee;
+}
+
+.om-read-more {
+  position: relative;
+  display: inline-flex;
+  font-size: 0.9375rem;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.om-media-object-section-main-section h5 {
+  position: relative;
+  height: 33px;
+  margin-bottom: 0;
+  overflow-y: hidden;
+  color: #1b1e24;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 0;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.om-klubben-p {
+  text-align: left;
+}
+
+.om-klubben-p-2 {
+  text-align: left;
+}
+
+.properties {
+  text-align: center;
+  max-width: 920px;
+  font-size: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.property {
+  display: inline-block;
+  margin: 15px;
+  font-size: 16px;
+}
+
+.property h5 {
+  margin: 10px;
+}
+
+.wrapper h2 {
+  position: relative;
+  margin-bottom: 0;
+  overflow-y: hidden;
+  color: #1b1e24;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  font-size: 2rem;
+  line-height: 1.4;
+  margin-top: 0;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }

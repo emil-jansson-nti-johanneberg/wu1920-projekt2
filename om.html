@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/css.css" />
-
     <title>Om Klubben</title>
   </head>
   <body>
@@ -14,15 +13,65 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <div class="topnav" id="myTopnav">
+    <nav class="topnav" id="myTopnav">
       <a href="index.html" class="active">Home</a>
       <a href="om.html">Om Klubben</a>
+      <!-- Basically Nyheter om klubben -->
       <a href="lag1.html">Lag A</a>
+      <!-- Basically lagets nästa matcher, senaste match och hela tabellen, kanske spelare i laget -->
       <a href="lag2.html">Lag B</a>
+      <!-- Basically lagets nästa matcher, senaste match och hela tabellen, kanske spelare i laget -->
       <a href="kontakt.html">Kontakt</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <!-- Footern typ med info om laget och kanseli osv. -->
+      <a href="javascript:void(0);" class="icon" onclick="One()">
         <i class="fa fa-bars"></i>
       </a>
+    </nav>
+    <header>
+      <img class="logo" src="img/fallbackimg_5459333.jpg" />
+    </header>
+    <div class="om-media-object">
+      <article class="om-media-object-section-main-section">
+        <span class="sub-title">Senaste nyheten</span>
+        <h5>Segertåget går vidare</h5>
+        <p class="om-klubben-p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          imperdiet, nulla et dictum interdum, nisi lorem egestas vitae
+          scel<span id="dots">...</span
+          ><span id="more"
+            >erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+            nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+            ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+            dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+            turpis. Donec vitae dui eget tellus gravida venenatis. Integer
+            fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+            tempor porta.</span
+          >
+        </p>
+        <button onclick="Two()" id="myBtn">Läs Mer</button>
+      </article>
+    </div>
+
+    <div class="om-media-object">
+      <article class="om-media-object-section-main-section">
+        <span class="sub-title">Senaste nyheten</span>
+        <h5>Segertåget går vidare</h5>
+        <p class="om-klubben-p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          imperdiet, nulla et dictum interdum, nisi lorem egestas vitae
+          scel<span id="dots2">...</span
+          ><span id="more2"
+            >erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+            nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+            ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+            dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+            turpis. Donec vitae dui eget tellus gravida venenatis. Integer
+            fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+            tempor porta.</span
+          >
+        </p>
+        <button onclick="Three()" id="2myBtn">Läs Mer</button>
+      </article>
     </div>
 
     <script src="js/index.js"></script>
