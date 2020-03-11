@@ -13,7 +13,6 @@ body {
 .topnav {
   background-color: black;
   overflow: hidden;
-  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -21,7 +20,6 @@ body {
 .topnav .responsive {
   background-color: black;
   overflow: hidden;
-  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -439,4 +437,42 @@ td.text-right {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+footer {
+  margin: 0px;
+  padding: 1.25em;
+  background-color: black;
+  color: white;
+  font-size: 0.85em;
+}
+footer div {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  padding: 1.25em 0px;
+}
+footer .social {
+  padding: 0em 1em;
+}
+footer .social img {
+  vertical-align: middle;
+  height: 2em;
+}
+footer .name {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 640px) {
+  footer .social img {
+    height: 1.2em;
+  }
+}
+
+a {
+  color: inherit;
+}
+
+.div-question {
+  font-size: 18px;
 }
