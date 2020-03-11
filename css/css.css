@@ -476,3 +476,23 @@ a {
 .div-question {
   font-size: 18px;
 }
+
+.homepage {
+  display: grid;
+  width: 100vw;
+  height: 160vh;
+  grid-template-areas:
+    "na na na"
+    "he he he"
+    "he he he"
+    "n1 ny n2"
+    "n1 ny n2"
+    "n1 ny n2"
+    "n1 ny n2"
+    "n1 ny n2"
+    "fo fo fo";
+
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-gap: 5px;
+}
