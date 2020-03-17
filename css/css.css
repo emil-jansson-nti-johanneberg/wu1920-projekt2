@@ -13,8 +13,7 @@ body {
 .topnav {
   background-color: black;
   overflow: hidden;
-  top: 0;
-  width: 100%;
+  top: 0; 
 }
 
 .topnav .responsive {
@@ -350,7 +349,7 @@ td.text-right {
   text-align: center;
 }
 
-#more {
+#more,#more2 {
   display: none;
 }
 
@@ -397,11 +396,7 @@ td.text-right {
   padding: 0;
 }
 
-.om-klubben-p {
-  text-align: left;
-}
-
-.om-klubben-p-2 {
+.om-klubben-p,.om-klubben-p-2 {
   text-align: left;
 }
 
