@@ -15,11 +15,11 @@
 
     <nav class="topnav" id="myTopnav">
       <a href="index.html" class="active">Home</a>
-      <a href="om.html">Om Klubben</a>
+      <a href="om.html">Nyheter</a>
       <!-- Basically Nyheter om klubben -->
-      <a href="lag1.html">Lag A</a>
+      <a href="lag1.html">Herrar</a>
       <!-- Basically lagets nästa matcher, senaste match och hela tabellen, kanske spelare i laget -->
-      <a href="lag2.html">Lag B</a>
+      <a href="lag2.html">Juniorer</a>
       <!-- Basically lagets nästa matcher, senaste match och hela tabellen, kanske spelare i laget -->
       <a href="kontakt.html">Kontakt</a>
       <!-- Footern typ med info om laget och kanseli osv. -->
@@ -33,9 +33,8 @@
     </header>
 
     <div class="wrapper">
-      <div class="main-wrapper">
-        <article class="match">
-          <h4>A-Lag Nästa Match</h4>
+      <article class="match-a">
+          <h4>Herrar Nästa Match</h4>
           <div class="wrapper-match">
             <div>
               <div>
@@ -60,9 +59,9 @@
             </div>
           </div>
         </article>
-
+      <section class="table1">
         <div class="table-title">
-          <h3>Tabell Herrar</h3>
+          <h3>Tabell Herrar Top 5</h3>
         </div>
         <table class="table-fill">
           <thead>
@@ -96,7 +95,8 @@
             </tr>
           </tbody>
         </table>
-        <article class="match">
+      </section>
+        <article class="match-b">
           <h4>Junior-Lag Nästa Match</h4>
           <div class="wrapper-match">
             <div>
@@ -122,9 +122,9 @@
             </div>
           </div>
         </article>
-
+      <section class="table2">
         <div class="table-title">
-          <h3>Tabell Juniorer</h3>
+          <h3>Tabell Juniorer Top 5</h3>
         </div>
         <table class="table-fill">
           <thead>
@@ -156,8 +156,10 @@
               <td class="text-left">Särö HK</td>
               <td class="text-left">16</td>
             </tr>
+            
           </tbody>
         </table>
+      </section>
 
         <div class="om-media-object">
           <article class="om-media-object-section-main-section">
@@ -177,8 +179,30 @@
             </p>
             <button onclick="Two()" id="myBtn">Läs Mer</button>
           </article>
+        </div>        
+        <div class="om-media-object-hide">
+          <article class="om-media-object-section-main-section-hide">
+            <span class="sub-title">Senaste nyheten</span>
+            <h5>Lorem ipsum dolor sit</h5>
+            <p class="om-klubben-p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, nihil corporis? Maiores perferendis cupiditate mollitia consequuntur quis molestiae. Debitis nemo magnam sed laborum rerum
+              scel<span id="dots2">...</span
+              ><span id="more2"
+                >erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+                nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+                ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+                dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+                turpis. Donec vitae dui eget tellus gravida venenatis. Integer
+                fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+                tempor porta.</span
+              >
+            </p>
+            <button onclick="Three()" id="2myBtn">Läs Mer</button>
+          </article>
         </div>
-      </div>
+
+
+
     </div>
     <footer>
       <div class="div-question">
@@ -186,10 +210,10 @@
         <a href="mailto:example@example.com">exempel@exempel.com</a>
       </div>
       <div>
-        <a class="social" href="#">Facebook</a>
-        <a class="social" href="#">Twitter</a>
-        <a class="social" href="#">Instagram</a>
-        <a class="social" href="#">Youtube</a>
+        <a class="social" href="#" >Facebook</a>
+        <a class="social" href="#" >Twitter</a>
+        <a class="social" href="#" >Instagram</a>
+        <a class="social" href="#" >Youtube</a>
       </div>
       <div>
         <a class="social" href="#"

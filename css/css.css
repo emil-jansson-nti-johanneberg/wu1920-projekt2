@@ -47,19 +47,19 @@ body {
   display: none;
 }
 
-article.match {
+article.match-a, article.match-b {
   text-align: center;
 }
 
 .match-datum {
   margin: 25px;
+  text-align: center;
 }
 
 article h4 {
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
-
   background: red;
   color: #f2f2f2;
   text-align: center;
@@ -70,11 +70,17 @@ article h4 {
   text-align: center;
 }
 
-.wrapper {
+.wrapper{
   margin: 15px;
   background-color: white;
   padding: 5px;
 }
+
+.wrapper-om{
+  margin: 15px;
+  padding: 5px;
+}
+
 
 .match-datum {
   font-size: 14px;
@@ -84,6 +90,7 @@ article h4 {
 .match-tid {
   font-size: 20px;
   margin: 10px;
+  text-align: center;
 }
 
 .match-lag {
@@ -95,6 +102,10 @@ article h4 {
 .main-wrapper {
   margin: 10px;
   background-color: white;
+}
+
+.main-wrapper-om {
+  margin: 10px;
 }
 .match-logo-a img {
   float: left;
@@ -110,6 +121,10 @@ article h4 {
   width: 64px;
 }
 
+img {
+  max-height: 650px;  
+}
+
 div.table-title {
   display: block;
   margin: auto;
@@ -117,7 +132,7 @@ div.table-title {
   width: 100%;
 }
 
-.table-title h3 {
+.table-title h3{
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
@@ -349,11 +364,11 @@ td.text-right {
   text-align: center;
 }
 
-#more,#more2 {
+#more,#more2,#more3,#more4 {
   display: none;
 }
 
-.om-media-object {
+.om-media-object, .om-media-object1 {
   overflow: hidden;
   display: block;
   padding: 5px;
@@ -361,7 +376,18 @@ td.text-right {
   margin: 15px;
 }
 
-.om-media-object-section-main-section {
+.om-media-object-hide, .om-media-object-hide2 {
+overflow: hidden;
+display: block;
+padding: 5px;
+font-weight: 400;
+margin: 15px;
+}
+
+
+.om-media-object-hide2 {display: none;}
+
+.om-media-object-section-main-section, .om-media-object-section-main-section-hide, .om-media-object-section-main-section1, .om-media-object-section-main-section-hide1{
   display: block;
   justify-content: center;
   margin: 0;
@@ -380,7 +406,7 @@ td.text-right {
   text-align: center;
 }
 
-.om-media-object-section-main-section h5 {
+.om-media-object-section-main-section h5,.om-media-object-section-main-section-hide h5, .om-media-object-section-main-section1 h5, .om-media-object-section-main-section-hide1 h5 {
   position: relative;
   height: 33px;
   margin-bottom: 0;
@@ -441,10 +467,10 @@ footer {
   background-color: black;
   color: white;
   font-size: 0.85em;
+  border-top: 6px double white;
 }
 footer div {
   margin: auto;
-  width: 70%;
   text-align: center;
   padding: 1.25em 0px;
 }
@@ -473,28 +499,116 @@ a {
   font-size: 18px;
 }
 
-@media only screen and (min-width: 1024px){ 
-
-.homepage {
-  display: grid;
-  width: 100vw;
-  height: 160vh;
-  grid-template-areas:
-    "na na na"
-    "he he he"
-    "he he he"
-    "n1 ny n2"
-    "n1 ny n2"
-    "n1 ny n2"
-    "n1 ny n2"
-    "n1 ny n2"
-    "fo fo fo";
-
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(9, 1fr);
-  grid-gap: 5px;
+.om-media-object-section-main-section-hide{
+  display: none;
 }
-   
+
+.om-media-object-om-hide{
+  display: none;
+}
+
+.om-media-object-hide1{
+  display: none;
+}
+
+#LoggaLag{
+  display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+  .social {
+    padding: 0em 0.2em;
+  }
+}
+
+@media screen and (max-width: 354px) {
+ .social{
+   display: none;
+ }
+ footer .social {
+   padding: 0em 0.2em;
+ }
+}
+
+
+@media(min-width: 1000px){ 
+
+  .wrapper, .wrapper-om{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+  }
+
+  .wrapper-om{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+  }
+
+  .match-a{
+    grid-column: 1;
+    width: 100%;
+  }
+
+  .table1{
+    grid-column: 1;
+    width: 100%;
+  }
+
+  .match-b{
+    grid-column: 3;
+    width: 100%;
+    grid-row: 1;
+  }
+
+  .table2{
+    grid-column: 3;
+    width: 100%;
+  }
+
+
+  .om-media-object-hide {
+    display: block;
+    grid-column: 3;
+  }
+
+  .om-media-object-section-main-section-hide{ 
+    display: block;
+  }
+
+  .om-media-object1 {
+    display: block;
+    grid-column: 3;
+  }
+  .om-media-object-section-main-section-hide1,.om-media-object-section-main-section-hide2{
+    display: block;
+  }
+
+  .om-media-object-hide1 {
+    display: block;
+    grid-column: 3;
+  }
+
+  .om-media-object-hide2{
+    display: block;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .spelare-lag1 {
+    grid-column: 3;
+    display: block;
+    grid-row: 2;
+  }
+
+  #LoggaLag {
+    grid-column: 3;
+    grid-row: 1;
+    display: block;
+    height: 185px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 
