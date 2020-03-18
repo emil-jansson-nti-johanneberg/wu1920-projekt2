@@ -356,9 +356,9 @@ td.text-right {
 .om-media-object {
   overflow: hidden;
   display: block;
-  padding: 10px;
+  padding: 5px;
   font-weight: 400;
-  margin: 10px;
+  margin: 15px;
 }
 
 .om-media-object-section-main-section {
@@ -398,6 +398,7 @@ td.text-right {
 
 .om-klubben-p,.om-klubben-p-2 {
   text-align: left;
+  margin: 5px;
 }
 
 .properties {
@@ -472,6 +473,8 @@ a {
   font-size: 18px;
 }
 
+@media only screen and (min-width: 1024px){ 
+
 .homepage {
   display: grid;
   width: 100vw;
@@ -487,7 +490,11 @@ a {
     "n1 ny n2"
     "fo fo fo";
 
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(9, 1fr);
   grid-gap: 5px;
 }
+   
+}
+
+
