@@ -49,6 +49,7 @@ body {
 
 article.match-a, article.match-b {
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
 }
 
 .match-datum {
@@ -538,6 +539,7 @@ a {
   .match-a{
     grid-column: 1;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
   }
 
   .table1{
@@ -556,7 +558,6 @@ a {
     grid-column: 3;
     width: 100%;
   }
-
 
   .om-media-object-hide {
     display: block;
