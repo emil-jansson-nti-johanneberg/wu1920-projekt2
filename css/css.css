@@ -545,7 +545,6 @@ a {
   .table1{
     grid-column: 1;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
   }
 
   .match-b{
