@@ -70,5 +70,3 @@ function Five() {
     moreText.style.display = "inline";
   }
 }
-
-
