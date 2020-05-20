@@ -689,8 +689,6 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
   text-shadow: 2px 2px 4px #000000;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-
 body {
   margin:0px;
   font-family:'Roboto';
