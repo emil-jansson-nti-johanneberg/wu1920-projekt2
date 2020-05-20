@@ -37,7 +37,17 @@
         </div>
       </div>
     </header>
-    <div class="wrapper-om">
+    <div class="wrapper-om"> 
+      <div class="center"> <!--Denna div behövs för att få pagination:en centerad i griddet, försökte i över 30 minuter men ingen annan lösning fungerade för mig. Så detta blev bra-->
+<ul class="pagination">
+  <li><a href="#">«</a></li>
+  <li><a class="active" href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">»</a></li>
+</ul>
+      </div>
       <div class="om-media-object">
           <span class="sub-title">Senaste nyheten</span>
           <h5>Segertåget går vidare</h5>
@@ -54,7 +64,8 @@
             >
           </p>
           <button onclick="Two()" id="myBtn" class="button bouncy">Läs Mer</button>
-      </div>        
+      </div>    
+
       <div class="om-media-object1">
           <span class="sub-title">Senaste nyheten</span>
           <h5>Lorem ipsum dolor sit</h5>
