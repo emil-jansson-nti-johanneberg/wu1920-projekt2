@@ -12,7 +12,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
     <nav class="topnav" id="myTopnav">
       <a href="index.html">Home</a>
       <a href="om.html" class="active">Nyheter</a>
@@ -27,12 +26,19 @@
         <i class="fa fa-bars"></i>
       </a>
     </nav>
-    <header>
-      <img class="logo2" src="img/5644.svg" alt="Ale HF Logga" />
+    <header class="header-image">
+      <div id=container>
+        <h1 id = "header-text1">Ales</h1> 
+      <img class="logo2" src="img/5644.svg" alt="Ale HF Logga" /> 
+      <div id=flip>
+          <div><div>Stolthet</div></div>
+          <div><div>Lag</div></div>
+          <div><div>Förening</div></div>
+        </div>
+      </div>
     </header>
     <div class="wrapper-om">
       <div class="om-media-object">
-        <article class="om-media-object-section-main-section">
           <span class="sub-title">Senaste nyheten</span>
           <h5>Segertåget går vidare</h5>
           <p class="om-klubben-p">
@@ -44,14 +50,12 @@
               ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
               imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
               venenatis. Integer fringilla congue eros non fermentum. Sed
-              dapibus pulvinar nibh tempor porta.</span
+              dapibus pulvinar nibh tempor porta.<br><img src="img/700x500px.png" class="newspic" alt="Nyhetsbild"></span
             >
           </p>
-          <button onclick="Two()" id="myBtn">Läs Mer</button>
-        </article>
+          <button onclick="Two()" id="myBtn" class="button bouncy">Läs Mer</button>
       </div>        
       <div class="om-media-object1">
-        <article class="om-media-object-section-main-section1">
           <span class="sub-title">Senaste nyheten</span>
           <h5>Lorem ipsum dolor sit</h5>
           <p class="om-klubben-p">
@@ -64,14 +68,12 @@
               dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
               turpis. Donec vitae dui eget tellus gravida venenatis. Integer
               fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
-              tempor porta.</span
+              tempor porta.<br><img src="img/700x500px.png" class="newspic" alt="Nyhetsbild"></span
             >
           </p>
-          <button onclick="Three()" id="2myBtn">Läs Mer</button>
-        </article>
+          <button onclick="Three()" id="2myBtn" class="button bouncy">Läs Mer</button>
       </div>
       <div class="om-media-object-hide">
-        <article class="om-media-object-section-main-section-hide">
           <span class="sub-title">Senaste nyheten</span>
           <h5>Segertåget går vidare</h5>
           <p class="om-klubben-p">
@@ -84,14 +86,12 @@
               ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
               imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
               venenatis. Integer fringilla congue eros non fermentum. Sed
-              dapibus pulvinar nibh tempor porta.</span
+              dapibus pulvinar nibh tempor porta.<br><img src="img/700x500px.png" class="newspic" alt="Nyhetsbild"></span
             >
           </p>
-          <button onclick="Four()" id="3myBtn">Läs Mer</button>
-        </article>
+          <button onclick="Four()" id="3myBtn" class="button bouncy">Läs Mer</button>
       </div>        
       <div class="om-media-object-hide2">
-        <article class="om-media-object-section-main-section-hide1">
           <span class="sub-title">Senaste nyheten</span>
           <h5>Lorem ipsum dolor sit</h5>
           <p class="om-klubben-p">
@@ -104,11 +104,10 @@
               dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
               turpis. Donec vitae dui eget tellus gravida venenatis. Integer
               fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
-              tempor porta.</span
+              tempor porta.<br><img src="img/700x500px.png" class="newspic" alt="Nyhetsbild"></span
             >
           </p>
-          <button onclick="Five()" id="4myBtn">Läs Mer</button>
-        </article>
+          <button onclick="Five()" id="4myBtn" class="button bouncy"> Läs Mer</button>
       </div>
 </div>
 <footer>
@@ -144,7 +143,6 @@
     Ales största och bästa handbollsklubb. <span class="name">Ale HF</span>.
   </div>
 </footer>
-
     <script src="js/index.js"></script>
   </body>
 </html>

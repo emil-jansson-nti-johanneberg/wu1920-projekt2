@@ -12,7 +12,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
     <nav class="topnav" id="myTopnav">
       <a href="index.html" class="active">Home</a>
       <a href="om.html">Nyheter</a>
@@ -27,11 +26,17 @@
         <i class="fa fa-bars"></i>
       </a>
     </nav>
-
-    <header>
-      <img class="logo2" src="img/5644.svg" alt="Ale HF Logga" />
+    <header class="header-image">
+      <div id=container>
+        <h1 id = "header-text1">Ales</h1> 
+      <img class="logo2" src="img/5644.svg" alt="Ale HF Logga" /> 
+      <div id=flip>
+          <div><div>Stolthet</div></div>
+          <div><div>Lag</div></div>
+          <div><div>Förening</div></div>
+        </div>
+      </div>
     </header>
-
     <div class="wrapper">
       <article class="match-a">
           <h4>Herrar Nästa Match</h4>
@@ -83,12 +88,10 @@
               <td class="text-left">HK Kelt</td>
               <td class="text-left">17</td>
             </tr>
-
             <tr>
               <td class="text-left">AIK</td>
               <td class="text-left">17</td>
             </tr>
-
             <tr>
               <td class="text-left">Särö HK</td>
               <td class="text-left">16</td>
@@ -146,23 +149,18 @@
               <td class="text-left">Baltic</td>
               <td class="text-left">19</td>
             </tr>
-
             <tr>
               <td class="text-left">ÖIK</td>
               <td class="text-left">18</td>
             </tr>
-
             <tr>
               <td class="text-left">Särö HK</td>
               <td class="text-left">16</td>
             </tr>
-            
           </tbody>
         </table>
       </section>
-
         <div class="om-media-object">
-          <article class="om-media-object-section-main-section">
             <span class="sub-title">Senaste nyheten</span>
             <h5>Segertåget går vidare</h5>
             <p class="om-klubben-p">
@@ -174,14 +172,13 @@
                 ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
                 imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
                 venenatis. Integer fringilla congue eros non fermentum. Sed
-                dapibus pulvinar nibh tempor porta.</span
+                dapibus pulvinar nibh tempor porta.
+                <br><img src="img/700x500px.png" class="newspic" alt="om-"></span
               >
             </p>
-            <button onclick="Two()" id="myBtn">Läs Mer</button>
-          </article>
+            <button onclick="Two()" id="myBtn" class="button bouncy">Läs Mer</button>
         </div>        
         <div class="om-media-object-hide">
-          <article class="om-media-object-section-main-section-hide">
             <span class="sub-title">Senaste nyheten</span>
             <h5>Lorem ipsum dolor sit</h5>
             <p class="om-klubben-p">
@@ -194,15 +191,11 @@
                 dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
                 turpis. Donec vitae dui eget tellus gravida venenatis. Integer
                 fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
-                tempor porta.</span
+                tempor porta.<br><img src="img/700x500px.png" class="newspic" alt="Nyhetsbild"></span
               >
             </p>
-            <button onclick="Three()" id="2myBtn">Läs Mer</button>
-          </article>
+            <button onclick="Three()" id="2myBtn" class="button bouncy" >Läs Mer</button>
         </div>
-
-
-
     </div>
     <footer>
       <div class="div-question">
@@ -237,7 +230,6 @@
         Ales största och bästa handbollsklubb. <span class="name">Ale HF</span>.
       </div>
     </footer>
-
     <script src="js/index.js"></script>
   </body>
 </html>
